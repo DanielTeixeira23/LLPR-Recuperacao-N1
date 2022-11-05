@@ -6,27 +6,27 @@ int main() {
  
    	int A, B, C, D;
    
-   	printf("Teste de Seleção com 4 números - Validação de Valores.\n\n");
+   	printf("Teste de SeleÃ§Ã£o com 4 nÃºmeros - ValidaÃ§Ã£o de Valores.\n\n");
    
-	printf("Digite o primeiro número: ");
+	printf("Digite o primeiro nÃºmero: ");
    	scanf("%d", &A);
    
-   	printf("Digite o segundo número: ");
+   	printf("Digite o segundo nÃºmero: ");
    	scanf("%d", &B);
    
-   	printf("Digite o terceiro número: ");
+   	printf("Digite o terceiro nÃºmero: ");
    	scanf("%d", &C);
    
-   	printf("Digite o quarto número: ");
+   	printf("Digite o quarto nÃºmero: ");
    	scanf("%d", &D);
    
    	printf("\n");
     
    	if(B > C && D > A && C + D > A + B && C && D > 0 && A%2==0)
    	{
-		printf("Os Valores Foram Aceitos\n");
+	    printf("Os Valores Foram Aceitos\n");
    	} else{
-   		printf("Os Valores Não Foram Aceitos\n");
+   	    printf("Os Valores NÃ£o Foram Aceitos\n");
    	}
  
    	return 0;
