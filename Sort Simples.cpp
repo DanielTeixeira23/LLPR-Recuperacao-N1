@@ -22,22 +22,18 @@ int main(){
 	z = c;
 	
 	if(a>b){
-		
-		teste = a;
-		a = b;
-		b = teste;
+	   teste = a;
+	   a = b;
+       	   b = teste;
 	}else{
-		
-		teste = a;
-		a = c;
-		c = teste;
+	  teste = a;
+	  a = c;
+	  c = teste;
 	}
-	
 	if(b>c){
-		
-		teste = b;
-		b = c;
-		c = teste;
+	   teste = b;
+	   b = c;
+	   c = teste;
 	}
 	
 	printf("\n");
@@ -47,7 +43,6 @@ int main(){
 	
 	printf("Numeros na sequencia que foram digitados: \n");
 	printf("%d\n%d\n%d\n",x,y,z);
-	
 	
 	return 0;
 }
