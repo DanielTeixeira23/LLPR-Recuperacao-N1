@@ -9,10 +9,10 @@ int main() {
     printf("Informe a primeira nota: ");
     scanf("%f", &N1);
     
-	printf("Informe a segunda nota: ");
-	scanf("%f", &N2);
+    printf("Informe a segunda nota: ");
+    scanf("%f", &N2);
 	
-	printf("Informe a terceira nota: ");
+    printf("Informe a terceira nota: ");
     scanf("%f", &N3);
     
     printf("Informe a quarta nota: ");
@@ -25,7 +25,7 @@ int main() {
     if (MEDIA >= 7.0){
         printf("Aluno aprovado.\n");
     } 
-	if (MEDIA<5.0){
+    if (MEDIA<5.0){
     	printf("Aluno reprovado.\n");
     }
 
@@ -38,11 +38,12 @@ int main() {
         RECALCULAR = (EXAME + MEDIA) / 2;
 
     if (RECALCULAR>=5.0){
-		printf("Aluno aprovado.\n");
-	}else{
-		printf("Aluno reprovado.\n");
-	}
-        printf("Media final: %.1f\n", RECALCULAR);
+	printf("Aluno aprovado.\n");
+    }else{
+	printf("Aluno reprovado.\n");
+    }
+      
+    printf("Media final: %.1f\n", RECALCULAR);
         
     return 0;
     }
