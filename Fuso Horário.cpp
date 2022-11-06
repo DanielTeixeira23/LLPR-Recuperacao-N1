@@ -19,10 +19,10 @@ int main() {
     
     if(saida==0){
     	saida = 24;
-    } else {
-	saida = ((saida + tempo + fuso) % 24);
     }
     
+    saida = ((saida + tempo + fuso) % 24);
+	
     printf("\n");
     printf("A hora atual no seu local de destino será ás: %d horas\n", saida);    
     
