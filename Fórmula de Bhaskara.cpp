@@ -20,11 +20,9 @@ int main() {
     
     printf("\n");
     
-    if(Delta>=0 && A!=0){
-    	
+    if(Delta>=0 && A!=0){	
     	printf("X LINHA = %.5lf\n", ((-B) + sqrt(Delta)) / (2*A));
-        printf("X DUAS LINHAS = %.5lf\n", ((-B) - sqrt(Delta)) / (2*A));
-        
+        printf("X DUAS LINHAS = %.5lf\n", ((-B) - sqrt(Delta)) / (2*A));  
     } else{
     	printf("Impossivel calcular o delta\n");   
     }
